@@ -14,6 +14,6 @@ fn main() {
     *value.borrow_mut() += 10;
 
     println!("a: {:?}", a);
-    println!("a: {:?}", b);
-    println!("a: {:?}", c);
+    println!("b: {:?}", b);
+    println!("c: {:?}", c);
 }
